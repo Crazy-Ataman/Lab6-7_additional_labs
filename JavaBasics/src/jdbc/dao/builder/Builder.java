@@ -3,12 +3,6 @@ package jdbc.dao.builder;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * Interface that is used to build java bean classes from database result set,
- * which has one method {@link Builder#build(ResultSet)}
- *
- * @author k1ly
- */
 public interface Builder<T> {
 
     /**
